@@ -303,7 +303,7 @@ SortSelect.addEventListener("change", () => {
 SortByDueDate.addEventListener("change", () => {
   var sortValue = SortByDueDate.value;
   if (sortValue !== "") {
-    SortByPriority(sortValue);
+    SortByDueDateFunc(sortValue);
   }
 });
 

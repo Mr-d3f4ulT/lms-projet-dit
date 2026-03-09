@@ -66,14 +66,14 @@ var Courses = document.getElementById("Courses");
 var DashboardLink = document.getElementById("DashboardLink");
 var Tasks = document.getElementById("Tasks");
 Profile.addEventListener("click", () => {
-  Profile.href = `/pages/profile.html?index=${indexUser}`;
+  Profile.href = `../pages/profile.html?index=${indexUser}`;
 });
 Courses.addEventListener("click", () => {
-  Courses.href = `/pages/Courses.html?index=${indexUser}`;
+  Courses.href = `../pages/Courses.html?index=${indexUser}`;
 });
 DashboardLink.addEventListener("click", () => {
-  DashboardLink.href = `/pages/Dashboard.html?index=${indexUser}`;
+  DashboardLink.href = `../pages/Dashboard.html?index=${indexUser}`;
 });
 Tasks.addEventListener("click", () => {
-  Tasks.href = `/pages/Tasks.html?index=${indexUser}`;
+  Tasks.href = `../pages/Tasks.html?index=${indexUser}`;
 });
